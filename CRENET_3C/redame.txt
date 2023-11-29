@@ -1,0 +1,19 @@
+# code for "Better Than Reference In Low-Light Image Enhancement: Conditional Re-Enhancement Network".
+
+# written by zhangyu, Email: hitzhangyu@qq.com. 
+
+# If you find any errors in the code, please get in touch with us immediately. We will be very grateful for that.
+
+# This is the code of CRENet_{3C} ( Fig.16 in the manuscript );  The code provides an example of the combining of the LECARM and CRENet
+
+# Thanks to weichen:  the code refers to their work, and the training data can be downloaded from their web page：https://github.com/weichen582/RetinexNet 
+
+For Test :   python main.py --phase=test
+
+For Train:  python main.py --phase=train
+
+Before test：put the low-light images in "./data/low"， put the Enhanced images by other methods in "./data/pre".
+
+
+
+
